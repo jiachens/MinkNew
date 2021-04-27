@@ -1,0 +1,14 @@
+*.so
+*.[o,d,a]
+*.swo
+*.swp
+*.swn
+*.pyc
+*.log
+
+results/
+modelnet40_ply*
+build/
+objs/
+dist/
+MinkowskiEngine.egg-info/
