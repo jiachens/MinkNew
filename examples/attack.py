@@ -3,7 +3,7 @@ Description:
 Autor: Jiachen Sun
 Date: 2021-03-07 16:29:42
 LastEditors: Jiachen Sun
-LastEditTime: 2021-04-16 22:25:05
+LastEditTime: 2021-04-27 14:26:58
 '''
 
 import torch
@@ -89,5 +89,4 @@ def pgd_attack(model,data,labels,flag,inisde,index,device,quantization_size,eps=
             max_loss=loss
             best_examples=input_adv
     
-    # print(input_adv._F, input_adv._C)
-    return input_adv
+    return best_examples
